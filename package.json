@@ -2,6 +2,9 @@
     "name": "bgn",
     "description": "a realtime chat web application",
     "version": "0.4.0",
+    "scripts": {
+        "start": "supervisor server.js"
+    },
     "main": "server.js",
     "dependencies": {
         "express": "3.4.x",
